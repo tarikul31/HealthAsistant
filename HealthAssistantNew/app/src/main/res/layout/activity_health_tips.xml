@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dhaka_transport"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="shihab.diu.com.healthassistantnew.HealthTips">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:background="@drawable/tips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4" />
+
+
+            <Button
+                android:textSize="20dp"
+                android:id="@+id/btn_healthtips_head"
+                android:text="HEAD"
+                android:layout_marginTop="20dp"
+                android:layout_width="190dp"
+                android:layout_height="50dp"/>
+
+            <Button
+                android:text="Chest"
+                android:textSize="20dp"
+                android:id="@+id/btn_healthtips_chest"
+                android:layout_marginTop="10dp"
+                android:layout_width="190dp"
+                android:layout_height="50dp"/>
+
+            <Button
+                android:text="eye"
+                android:textSize="20dp"
+                android:id="@+id/btn_healthtips_eye"
+                android:layout_marginTop="10dp"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+
+                />
+
+            <Button
+                android:text="Teeth"
+                android:textSize="20dp"
+                android:id="@+id/btn_healthtips_teeth"
+                android:layout_marginTop="10dp"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+
+                />
+
+            <Button
+                android:text="Nose"
+                android:id="@+id/btn_healthtips_nose"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

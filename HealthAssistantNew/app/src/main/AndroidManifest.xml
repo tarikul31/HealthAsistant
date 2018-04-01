@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shihab.diu.com.healthassistantnew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/haicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DiseasePrediction" />
+        <activity android:name=".DoctorsInfo" />
+        <activity android:name=".HospitalInfo" />
+        <activity android:name=".HealthTips" />
+        <activity android:name=".About" />
+        <activity android:name=".Help" />
+        <activity android:name=".OrthopedixDoctors" />
+        <activity android:name=".MedicineDoctors" />
+        <activity android:name=".HematologyDoctors" />
+        <activity android:name=".PsychologyDoctors" />
+        <activity android:name=".NeurologyDoctors" />
+        <activity android:name=".ChildrenDoctors" />
+        <activity android:name=".HeadSymptomsInput" />
+        <activity android:name=".EyeSymptomsInput" />
+        <activity android:name=".NoseSymptomsInput" />
+        <activity android:name=".StomachSymptomsInput" />
+        <activity android:name=".TeethSymptomsInput" />
+        <activity android:name=".HeadHealthtips" />
+        <activity android:name=".ChestHealthTips" />
+        <activity android:name=".EyeHealthTips" />
+        <activity android:name=".TeethHealthTips" />
+        <activity android:name=".NoseHealthTips" />
+        <activity android:name=".EyeDoctors" />
+        <activity android:name=".DentistDoctors" />
+        <activity android:name=".NoseDoctors" />
+        <activity android:name=".HospitalDhaka" />
+        <activity android:name=".HospitalRajshahi" />
+        <activity android:name=".HospitalBarisal" />
+        <activity android:name=".HospitalMymensingh" />
+        <activity android:name=".HospitalSylhet" />
+        <activity android:name=".HospitalChittagong" />
+        <activity android:name=".HospitalKhulna"></activity>
+    </application>
+
+</manifest>

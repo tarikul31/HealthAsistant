@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="shihab.diu.com.healthassistantnew.HospitalInfo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/city"
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:id="@+id/imageView4"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:text="Dhaka"
+                android:textSize="20dp"
+                android:id="@+id/btn_hospital_dhaka"
+                android:layout_marginTop="20dp"
+                android:layout_width="220dp"
+                android:layout_height="50dp" />
+            <Button
+                android:text="Rajshahi"
+                android:textSize="20dp"
+                android:id="@+id/btn_hospital_rajshahi"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="50dp" />
+            <Button
+                android:text="Barisal"
+                android:textSize="20dp"
+                android:id="@+id/btn_hospital_barisal"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="50dp" />
+            <Button
+                android:text="Chittagong"
+                android:textSize="20dp"
+                android:id="@+id/btn_hospital_chittagong"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="50dp" />
+            <Button
+                android:text="Sylhet"
+                android:textSize="20dp"
+                android:id="@+id/btn_hospital_sylhet"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="50dp" />
+            <Button
+                android:text="Khulna"
+                android:textSize="20dp"
+                android:id="@+id/btn_hospital_khulna"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="50dp" />
+            <Button
+                android:text="Mymensingh"
+                android:textSize="20dp"
+                android:id="@+id/btn_hospital_mymensingh"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:layout_width="220dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

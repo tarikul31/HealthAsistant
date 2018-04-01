@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="shihab.diu.com.healthassistantnew.DiseasePrediction">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/bodyp"
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:text="Head"
+                android:textSize="20dp"
+                android:id="@+id/btn_head_disease_prediction"
+                android:layout_marginTop="20dp"
+                android:layout_width="220dp"
+                android:layout_height="50dp" />
+            <Button
+                android:text="Eye"
+                android:textSize="20dp"
+                android:id="@+id/btn_eye_disease_prediction"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="50dp" />
+            <Button
+                android:text="Stomach"
+                android:textSize="20dp"
+                android:id="@+id/btn_stomach_disease_prediction"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="50dp" />
+            <Button
+                android:text="Teeth"
+                android:textSize="20dp"
+                android:id="@+id/btn_teeth_disease_prediction"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="50dp" />
+            <Button
+                android:text="Nose"
+                android:textSize="20dp"
+                android:id="@+id/btn_nose_disease_prediction"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
